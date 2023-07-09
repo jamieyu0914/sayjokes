@@ -6,7 +6,7 @@
 }
 
 :root {
-  --accent-color: #a876aa;
+  --accent-color: #ffd63b;
   --background-color: #eeeeee;
 }
 
@@ -120,7 +120,7 @@ body {
   scale: 0.99;
 }
 
-/*=============== SCROLLBAR ===============*/
+/*=============== COPYRIGHT ===============*/
 
 .copyright {
   position: relative;
