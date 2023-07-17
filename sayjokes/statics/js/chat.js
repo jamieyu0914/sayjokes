@@ -35,7 +35,10 @@ async function generateJoke() {
 
   await new Promise((r) => setTimeout(r, 1500));
 
+  //   console.log(`${data.joke}`);
+
   joke.innerHTML = `${data.joke}`;
+
   chat.scrollTop = chat.scrollHeight;
 
   jokeBtn.disabled = false;
