@@ -14,7 +14,7 @@ async function generateJoke() {
   const joke = document.createElement("div");
   joke.classList.add("message", "joke");
 
-  message.innerHTML = `可以跟我說一個工程師笑話嗎?`;
+  message.innerHTML = `Can you tell me a funny joke to listen to？`;
   chat.appendChild(message);
   chat.scrollTop = chat.scrollHeight;
 
